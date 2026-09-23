@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Para ti ❤️</title>
+<meta name="description" content="Un pequeño recuerdo para ti.">
+<style>
+:root {
+  --bg:#fff7f8; --ink:#34262a; --muted:#765e65; --accent:#c72f5b; --card:#ffffff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#fff7f8 0%,#fff 45%,#fff3f6 100%);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.7}
+main{max-width:900px;margin:auto;padding:24px 18px 70px}
+.hero{min-height:88vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 10px}
+.hero-inner{max-width:700px}
+.eyebrow{font-family:Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;font-size:12px;color:var(--accent)}
+h1{font-size:clamp(46px,10vw,82px);line-height:1.05;margin:14px 0;color:#2b2024}
+.lead{font-size:clamp(19px,4vw,25px);color:var(--muted);margin:0 auto 30px}
+.heart{font-size:40px}
+.photo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:25px 0 65px}
+.photo-grid img{width:100%;height:100%;min-height:230px;object-fit:cover;border-radius:18px;box-shadow:0 10px 28px rgba(60,20,30,.10)}
+.photo-grid img:nth-child(1),.photo-grid img:nth-child(4),.photo-grid img:nth-child(7){grid-row:span 2;min-height:470px}
+.section{background:rgba(255,255,255,.82);border-radius:28px;padding:34px 25px;box-shadow:0 12px 35px rgba(80,30,40,.08);margin-bottom:35px}
+.section h2{text-align:center;font-size:34px;margin:0 0 20px}
+.message p{font-size:18px;margin:0 0 18px}
+.message .highlight{font-size:27px;text-align:center;color:var(--accent);font-weight:bold;margin:30px 0}
+.song{text-align:center;padding:42px 22px}
+.song h2{margin-bottom:10px}
+.song p{color:var(--muted);font-size:18px}
+.button{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-family:Arial,sans-serif;font-weight:700;padding:15px 25px;border-radius:999px;box-shadow:0 8px 20px rgba(199,47,91,.25)}
+.footer{text-align:center;color:#92767e;font-size:14px;margin-top:45px}
+@media(max-width:620px){
+  .photo-grid{grid-template-columns:1fr}
+  .photo-grid img,.photo-grid img:nth-child(1),.photo-grid img:nth-child(4),.photo-grid img:nth-child(7){min-height:320px;grid-row:auto}
+  .section{padding:28px 20px}
+}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="heart">❤️</div>
+    <div class="eyebrow">Para ti</div>
+    <h1>Tengo algo que quiero decirte…</h1>
+    <p class="lead">Hay cosas que a veces cuesta decir de frente, así que quise dejarte este pequeño pedacito de nosotros.</p>
+    <a class="button" href="#historia">Abrir ❤️</a>
+  </div>
+</section>
+
+<section id="historia">
+  <div class="photo-grid">
+    <img src="fotos/foto1.jpeg" alt="Un recuerdo juntos" loading="lazy"><img src="fotos/foto2.jpeg" alt="Un recuerdo juntos" loading="lazy"><img src="fotos/foto3.jpeg" alt="Un recuerdo juntos" loading="lazy"><img src="fotos/foto4.jpeg" alt="Un recuerdo juntos" loading="lazy"><img src="fotos/foto5.jpeg" alt="Un recuerdo juntos" loading="lazy"><img src="fotos/foto6.jpeg" alt="Un recuerdo juntos" loading="lazy"><img src="fotos/foto7.jpeg" alt="Un recuerdo juntos" loading="lazy"><img src="fotos/foto8.jpeg" alt="Un recuerdo juntos" loading="lazy">
+  </div>
+</section>
+
+<section class="section message">
+  <h2>Lo que quiero que sepas</h2>
+  <p>Te quiero muchísimo. Y me siento muy afortunado de haberte conocido, de haber coincidido contigo y de poder compartir contigo tantos momentos que para mí significan muchísimo.</p>
+  <p>No quiero que estas palabras sean solamente una promesa bonita. Sé que las cosas importantes se demuestran con acciones, con paciencia, con honestidad y con la manera en que uno cuida a la persona que ama.</p>
+  <p>Por eso quiero que sepas que quiero hacer las cosas bien. Quiero aprender de mis errores, ser más transparente contigo y cuidar mucho más lo que tenemos.</p>
+  <p class="highlight">Porque si algo tengo claro, es que quiero elegirte a ti. ❤️</p>
+  <p>Elegirte en los días fáciles y también en los complicados. Elegirte para reír, para acompañarnos, para construir y para seguir creando recuerdos como los que están en estas fotos.</p>
+  <p>No te estoy pidiendo que olvides lo que pasó ni que confíes solamente porque te lo diga. Solo quería que supieras lo que hay en mi corazón y que, si me das la oportunidad, quiero demostrártelo con hechos.</p>
+  <p>Gracias por todos estos momentos. Gracias por ser tú. Y gracias por haber formado parte de tantos recuerdos que guardo con muchísimo cariño.</p>
+  <p class="highlight">Te quiero. Te elijo. Y quiero seguir caminando contigo. ❤️</p>
+</section>
+
+<section class="section song">
+  <div class="heart">🎵❤️</div>
+  <h2>Ahora quiero cantarte algo…</h2>
+  <p>Hay una canción que dice algunas de las cosas que yo quisiera poder decirte.</p>
+  <a class="button" href="https://open.spotify.com/track/18JoTDwJuDKt9AfGKvmlx5" target="_blank" rel="noopener">Escuchar “Mi Razón De Ser”</a>
+</section>
+
+<div class="footer">Hecho con cariño, para ti. ❤️</div>
+</main>
+</body>
+</html>
